@@ -29,8 +29,12 @@ const clothingStore = {
     { 
       id: "shirt3", 
       name: "Hoodie", 
-      type: "embedded",
-      objectName: "Wolf3D_Outfit_Top",
+      type: "external",
+      modelPath: "/Untitled.glb",
+      position: [0, 0, 0],
+      rotation: [0, 0, 0],
+      scale: [1, 1, 1],
+      objectName: "/Untitled.glb",
       thumbnail: "/api/placeholder/100/100",
       color: "#00ff00"
     },
